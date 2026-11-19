@@ -27,7 +27,7 @@ Options: `--geo` (country code, empty = worldwide), `--time` (`today 5-y`, `now 
 
 ## Cost
 
-The scraper charges per result: one keyword's time series is one result, $0.002 or less. 50 keywords cost about $0.10. Keywords Google has no data for are not charged. Apify's free plan includes monthly credit that covers small runs.
+The scraper charges per result: one keyword's time series is one result, $0.005 or less. 50 keywords cost about $0.25. Keywords Google has no data for are not charged. Apify's free plan includes monthly credit that covers small runs.
 
 ## Why not pytrends?
 
