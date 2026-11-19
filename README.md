@@ -2,6 +2,8 @@
 
 Google Trends compares at most 5 keywords at a time, and every request rescales its own top value to 100. Split 12 keywords into batches of 5 and the numbers from different batches can't be compared. On top of that, pytrends is archived and Google answers scripts with HTTP 429.
 
+**In Colab?** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sassrami/google-trends-compare/blob/main/google_trends_colab.ipynb) Colab is where pytrends fails most (Google Cloud IPs get 429 on the first request). The notebook runs the same comparison, shows a ranking and a chart, and downloads a CSV.
+
 `compare.py` gets interest over time for **any number of keywords on one shared 0-100 scale** and writes a CSV with one column per keyword. It calls a hosted Google Trends scraper on Apify, so there is no rate limiting, cookie handling or proxy setup on your side.
 
 ```bash
